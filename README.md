@@ -151,8 +151,14 @@ This lab is continuously evolving as new infrastructure and experiments are adde
 
 ---
 
-Author
+# Author
 
-Eugene Ivanov
+Eugene Ivanov  
+Infrastructure / IT Operations  
+Austin, Texas
 
----
+Website  
+https://eugeneivanov.dev
+
+LinkedIn  
+https://www.linkedin.com/in/eugeneivanov-dev
