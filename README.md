@@ -52,6 +52,9 @@ Below is the current physical rack layout of the homelab infrastructure.
 
 ![Rack Diagram](rack-diagram.png)
 
+Diagram of the home lab rack layout including patch panel,
+PoE switch, gateway, NAS storage and UPS power system.
+
 ---
 
 ## Infrastructure Stack
