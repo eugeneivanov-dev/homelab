@@ -106,13 +106,42 @@ PoE switch, gateway, NAS storage and UPS power system.
 
 ---
 
-## Rack
+## Physical Rack
 
-![Rack](photos/rack-front.jpg)
+Front view of the completed home lab rack.
+
+![Home lab rack front](photos/rack-final.webp)
+
+---
+
+### Rack Details
+
+Top view showing cable routing and patch panel connections.
+
+![Rack top view](photos/rack-top.webp)
+
+Bottom view showing UPS and Synology NAS placement.
+
+![Rack bottom view](photos/rack-bottom.webp)
+
+Side view of the wall-mounted 12U rack frame.
+
+![Rack side view](photos/rack-side.webp)
+
+---
 
 ## Rack Build Progress
 
-![Rack Progress](photos/rack-progress-1.jpg)
+Initial installation of the wall-mounted rack and infrastructure setup.
+
+### Empty wall and network entry
+![Empty wall](photos/rack-installation-start.webp)
+
+### Rack installation
+![Rack installed](photos/rack-mounted-frame.webp)
+
+### Network equipment installation
+![Network stack installation](photos/network-stack-install.webp)
 
 ---
 
