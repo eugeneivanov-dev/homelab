@@ -143,6 +143,9 @@ Initial installation of the wall-mounted rack and infrastructure setup.
 ### Network equipment installation
 ![Network stack installation](photos/network-stack-install.webp)
 
+### Final rack lauout
+![Completed rack](photos/rack-final-layout.webp)
+
 ---
 
 ## Notes
