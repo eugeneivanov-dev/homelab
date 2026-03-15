@@ -1,102 +1,110 @@
-# Homelab Infrastructure
+# Home Infrastructure Lab
 
-Personal infrastructure lab used for learning and practicing Linux, networking, and system administration.
-
-This environment is used to experiment with virtualization, container workloads, and network services in a controlled home environment.
+Real hardware infrastructure lab used for networking, Linux, and infrastructure engineering experiments.
 
 ---
 
-## Goals
-- Learn Linux administration
+This repository documents the design, build, and evolution of a personal home infrastructure lab focused on networking, Linux systems, and infrastructure engineering.
+
+The lab is used to experiment with real infrastructure hardware, networking architecture, and system administration in a controlled environment.
+
+---
+
+# Goals
+
+- Learn Linux system administration
 - Practice networking and infrastructure concepts
 - Build and maintain a small home datacenter
 - Experiment with virtualization and container workloads
-- Document infrastructure architecture
+- Document infrastructure design and troubleshooting
 
 ---
 
-## Roadmap
+# Current Infrastructure
 
-The homelab is built as an evolving infrastructure project.  
-Future development plans and upcoming improvements are tracked in the roadmap.
+## Network
 
-[Homelab Roadmap](docs/roadmap.md)
-
----
-
-## Current Infrastructure
-
-### Network
-- UDM Pro Max (router / firewall)
+- UniFi Dream Machine Pro Max (router / firewall)
 - UniFi Switch
-- Structured cabling with patch panel
+- Structured CAT6 Ethernet cabling
+- Patch panel
 
-### Storage
+## Storage
+
 - Synology RS1221+
-- RAID storage for lab services and backups
+- RAID storage for backups and lab services
 
-### Power
-- APC rack UPS for power protection
+## Power
 
-### Workstations
-- Falcon Talon workstation
-Ryzen 7 • RTX 5090 • 96GB RAM • 16TB NVMe  
-- Mac Studio M1 Max
-Main workstation for development and documentation
+- APC Rack UPS for power protection
 
----
+## Workstations
 
-## Planned Lab Expansion
+- Falcon Talon workstation  
+  Ryzen 7 • RTX 5090 • 96GB RAM • 16TB NVMe
 
-### Future additions for cluster and virtualization experiments:
-- 3× Dell OptiPlex Micro nodes
-- Linux virtualization cluster
-- container workloads
+- Mac Studio M1 Max  
+  Used for development and documentation
 
 ---
 
-## Lab Architecture
+# Lab Architecture
 
-Below is the current physical rack layout of the homelab infrastructure.
+The lab is built around a wall-mounted network rack with structured cabling and dedicated infrastructure hardware.
 
-![Rack Diagram](rack-diagram.png)
+## Rack Layout
 
-Diagram of the home lab rack layout including patch panel,
-PoE switch, gateway, NAS storage and UPS power system.
+Diagram showing the physical layout of the rack including:
+
+- patch panel
+- PoE switch
+- gateway
+- NAS
+- UPS power system
+
+[View rack layout diagram](rack-diagram.png)
 
 ---
 
-## Infrastructure Stack
+# Infrastructure Stack
 
-**Networking**
+## Networking
 
-- UniFi UDM Pro Max
+- UniFi Dream Machine Pro Max
 - UniFi Switch
-- Structured CAT5e cabling
+- Structured Ethernet cabling
 
-**Storage**
+## Storage
 
 - Synology RS1221+
 - RAID storage
 
-**Power**
+## Power
 
-- APC Rack UPS
+- APC rack UPS
 
-**Compute**
+## Compute
 
-- Falcon Talon Workstation  
-  Ryzen 7 • RTX 5090 • 96GB RAM
-
+- Falcon Talon workstation
 - Mac Studio M1 Max
-
-**Future Lab Nodes**
-
-- Dell OptiPlex Micro cluster (planned)
 
 ---
 
-## Documentation
+# Future Lab Expansion
+
+Planned infrastructure improvements:
+
+- Dell OptiPlex micro nodes
+- Linux virtualization cluster
+- container workloads
+- infrastructure monitoring
+- logging and observability
+
+---
+
+# Documentation
+
+Additional documentation:
 
 - [Rack Layout](docs/rack-layout.md)
 - [Network Infrastructure](docs/network.md)
@@ -104,73 +112,57 @@ PoE switch, gateway, NAS storage and UPS power system.
 
 ---
 
-## Learning Focus
+# Learning Focus
 
-### Current areas of study:
+Current learning areas:
+
 - Linux administration
 - networking fundamentals
 - infrastructure architecture
 - virtualization
-- containers
+- containerization
 
 ---
 
-## Physical Rack
+# Rack Build Progress
 
-Front view of the completed home lab rack.
+## Rack Installation
 
-![Home lab rack front](photos/rack-final.webp)
+Initial installation of the wall-mounted rack and infrastructure components.
 
----
+![Rack Installation](photos/rack-installation-start.webp)
 
-### Rack Details
+## Network Stack Deployment
 
-Top view showing cable routing and patch panel connections.
+Installation of networking equipment.
 
-![Rack top view](photos/rack-top.webp)
+![Network Stack](photos/network-stack-install.webp)
 
-Bottom view showing UPS and Synology NAS placement.
+## Final Rack Layout
 
-![Rack bottom view](photos/rack-bottom.webp)
+Completed rack configuration.
 
-Side view of the wall-mounted 12U rack frame.
-
-![Rack side view](photos/rack-side.webp)
+![Rack Layout](photos/rack-final-layout.webp)
 
 ---
 
-## Rack Build Progress
+# Engineering Journal
 
-Initial installation of the wall-mounted rack and infrastructure setup.
+Detailed experiments and troubleshooting notes are documented on the website:
 
-### Empty wall and network entry
-![Empty wall](photos/rack-installation-start.webp)
-
-### Rack installation
-![Rack installed](photos/rack-mounted-frame.webp)
-
-### Network equipment installation
-![Network stack installation](photos/network-stack-install.webp)
-
-### Final rack lauout
-![Completed rack](photos/rack-final-layout.webp)
-
----
-
-## Notes
-
-This lab is continuously evolving as new infrastructure and experiments are added.
+https://eugeneivanov.dev
 
 ---
 
 # Author
 
 Eugene Ivanov  
-Infrastructure / IT Operations  
-Austin, Texas
+Infrastructure Engineering  
 
-Website  
-https://eugeneivanov.dev
+Austin, Texas
 
 LinkedIn  
 https://www.linkedin.com/in/eugeneivanov-dev
+
+Website  
+https://eugeneivanov.dev
