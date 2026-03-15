@@ -15,6 +15,15 @@ This environment is used to experiment with virtualization, container workloads,
 
 ---
 
+## Roadmap
+
+The homelab is built as an evolving infrastructure project.  
+Future development plans and upcoming improvements are tracked in the roadmap.
+
+[Homelab Roadmap](docs/roadmap.md)
+
+---
+
 ## Current Infrastructure
 
 ### Network
