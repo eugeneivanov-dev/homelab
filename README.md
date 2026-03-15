@@ -4,7 +4,7 @@ Real hardware infrastructure lab used for networking, Linux, and infrastructure 
 
 ---
 
-This repository documents the design, build, and evolution of a personal home infrastructure lab focused on networking, Linux systems, and infrastructure engineering.
+This repository documents the design, build, and evolution of a real home infrastructure lab focused on networking, Linux systems, and infrastructure engineering.
 
 The lab is used to experiment with real infrastructure hardware, networking architecture, and system administration in a controlled environment.
 
@@ -76,9 +76,9 @@ Logical network architecture showing how devices and networks are connected.
 
 ## Networking
 
-- UniFi Dream Machine Pro Max
-- UniFi Switch
-- Structured Ethernet cabling
+- UniFi Dream Machine Pro Max (gateway / firewall)
+- UniFi PoE switch
+- Structured CAT6 Ethernet cabling
 
 ## Storage
 
@@ -101,7 +101,7 @@ Logical network architecture showing how devices and networks are connected.
 Planned infrastructure improvements:
 
 - Dell OptiPlex micro nodes
-- Linux virtualization cluster
+- Linux virtualization cluster (Proxmox or KVM)
 - container workloads
 - infrastructure monitoring
 - logging and observability
@@ -156,7 +156,7 @@ Completed rack configuration.
 
 # Engineering Journal
 
-Detailed experiments and troubleshooting notes are documented on the website:
+Detailed infrastructure experiments, networking labs, and troubleshooting notes are documented on the website.
 
 https://eugeneivanov.dev
 
