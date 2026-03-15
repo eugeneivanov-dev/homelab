@@ -62,7 +62,13 @@ Diagram showing the physical layout of the rack including:
 - NAS
 - UPS power system
 
-[View rack layout diagram](rack-diagram.png)
+[View rack layout diagram](docs/rack-diagram.png)
+
+## Network Topology
+
+Logical network architecture showing how devices and networks are connected.
+ 
+[View full network topology](docs/network-topology.svg)
 
 ---
 
@@ -126,19 +132,21 @@ Current learning areas:
 
 # Rack Build Progress
 
-## Rack Installation
+The following images document the physical build process of the infrastructure rack.
+
+## Initial rack installation and cabling
 
 Initial installation of the wall-mounted rack and infrastructure components.
 
 ![Rack Installation](photos/rack-installation-start.webp)
 
-## Network Stack Deployment
+## Network infrastructure stack deployment
 
 Installation of networking equipment.
 
 ![Network Stack](photos/network-stack-install.webp)
 
-## Final Rack Layout
+## Completed home infrastructure rack
 
 Completed rack configuration.
 
