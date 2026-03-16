@@ -19,3 +19,16 @@ Installed a StarTech 12U wall-mounted rack with a plywood backboard anchored to 
 Prepared mounting surface for switches, NAS, and UPS.
 
 More details: https://eugeneivanov.dev/journal/networking/network-rack-backboard/
+
+---
+
+## 2026-03-07 — Installing Home Lab Rack and Patch Panel
+
+Installed a Cat6 patch panel in the rack and terminated house Ethernet runs.
+
+While terminating cables, discovered a wiring mismatch between T568A and T568B standards. Adjusted patch panel termination to match the existing wall outlets and documented the differences.
+
+More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-patch-panel-installation/
+
+---
+
