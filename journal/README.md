@@ -13,6 +13,14 @@ More details: https://eugeneivanov.dev/journal/networking/home-network-cable-tes
 
 ---
 
+## 2026-03-05 — Planning Home Lab Rack Equipment
+
+Designed the rack layout and selected networking, compute, and power infrastructure components.
+
+More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-equipment-planning/
+
+---
+
 ## 2026-03-06 — Installing Wall-Mounted Rack
 
 Installed a StarTech 12U wall-mounted rack with a plywood backboard anchored to wall studs.  
@@ -24,9 +32,7 @@ More details: https://eugeneivanov.dev/journal/networking/network-rack-backboard
 
 ## 2026-03-07 — Installing Home Lab Rack and Patch Panel
 
-Installed a Cat6 patch panel in the rack and terminated house Ethernet runs.
-
-While terminating cables, discovered a wiring mismatch between T568A and T568B standards. Adjusted patch panel termination to match the existing wall outlets and documented the differences.
+Installed the rack patch panel and terminated the house Ethernet cabling.
 
 More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-patch-panel-installation/
 
