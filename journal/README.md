@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-17 — Selecting a Compute Node for the Home Infrastructure Lab
+
+Documented compute node selection for home lab. Prioritized architecture and scalability over maximum initial specs.
+
+More details: https://eugeneivanov.dev/journal/networking/compute-node-selection/
+
+---
+
 ## 2026-03-08 — Assembling the Home Lab Rack
 
 Assembled the rack and revised the layout to properly fit the NAS, UPS, and rack shelves.
