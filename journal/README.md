@@ -4,20 +4,19 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
-## 2026-03-05 — Testing Home Ethernet Cabling
+## 2026-03-08 — Assembling the Home Lab Rack
 
-Tested existing Ethernet wiring using a Klein Tools VDV501-851 cable tester.  
-Verified cable map, continuity, and wiring order for multiple wall ports.
+Assembled the rack and revised the layout to properly fit the NAS, UPS, and rack shelves.
 
-More details: https://eugeneivanov.dev/journal/networking/home-network-cable-testing/
+More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-assembly/
 
 ---
 
-## 2026-03-05 — Planning Home Lab Rack Equipment
+## 2026-03-07 — Installing Home Lab Rack and Patch Panel
 
-Designed the rack layout and selected networking, compute, and power infrastructure components.
+Installed the rack patch panel and terminated the house Ethernet cabling.
 
-More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-equipment-planning/
+More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-patch-panel-installation/
 
 ---
 
@@ -30,18 +29,17 @@ More details: https://eugeneivanov.dev/journal/networking/network-rack-backboard
 
 ---
 
-## 2026-03-07 — Installing Home Lab Rack and Patch Panel
+## 2026-03-05 — Planning Home Lab Rack Equipment
 
-Installed the rack patch panel and terminated the house Ethernet cabling.
+Designed the rack layout and selected networking, compute, and power infrastructure components.
 
-More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-patch-panel-installation/
-
----
-
-## 2026-03-08 — Assembling the Home Lab Rack
-
-Assembled the rack and revised the layout to properly fit the NAS, UPS, and rack shelves.
-
-More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-assembly/
+More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-equipment-planning/
 
 ---
+
+## 2026-03-05 — Testing Home Ethernet Cabling
+
+Tested existing Ethernet wiring using a Klein Tools VDV501-851 cable tester.  
+Verified cable map, continuity, and wiring order for multiple wall ports.
+
+More details: https://eugeneivanov.dev/journal/networking/home-network-cable-testing/
