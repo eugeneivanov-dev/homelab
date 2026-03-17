@@ -22,6 +22,11 @@ The lab is used to experiment with real infrastructure hardware, networking arch
 
 # Current Infrastructure
 
+### Compute
+- Dell Pro Micro Plus (Intel Core Ultra 7 265, 16GB RAM, 512GB SSD) — compute node
+
+Used for Linux, virtualization, and future cluster expansion
+
 ## Network
 
 - UniFi Dream Machine Pro Max (router / firewall)
