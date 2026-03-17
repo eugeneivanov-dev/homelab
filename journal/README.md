@@ -38,3 +38,10 @@ More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-patch-pa
 
 ---
 
+## 2026-03-08 — Assembling the Home Lab Rack
+
+Assembled the rack and revised the layout to properly fit the NAS, UPS, and rack shelves.
+
+More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-assembly/
+
+---
