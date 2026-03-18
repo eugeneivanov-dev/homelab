@@ -8,7 +8,7 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 Implemented and documented role-based access in my UniFi home lab by separating Owner and Site Admin responsibilities to apply least privilege in daily operations.
 
-More details: https://eugeneivanov.dev/journal/role-based-access-unifi/
+More details: https://eugeneivanov.dev/journal/networking/role-based-access-unifi/
 
 ---
 
