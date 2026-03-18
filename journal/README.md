@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-18 — Troubleshooting UniFi WAN Failover After Switching to SFP+  
+
+Resolved a false WAN failover event caused by incorrect WAN role assignment after moving the primary connection to SFP+.  
+
+https://eugeneivanov.dev/journal/troubleshooting/unifi-wan-failover-after-sfp-switch/
+
+---
+
 ## 2026-03-18 — Role-Based Access in UniFi
 
 Implemented and documented role-based access in my UniFi home lab by separating Owner and Site Admin responsibilities to apply least privilege in daily operations.
