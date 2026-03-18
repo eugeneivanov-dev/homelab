@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-18 — Role-Based Access in UniFi
+
+Implemented and documented role-based access in my UniFi home lab by separating Owner and Site Admin responsibilities to apply least privilege in daily operations.
+
+More details: https://eugeneivanov.dev/journal/role-based-access-unifi/
+
+---
+
 ## 2026-03-18 — 8 Gbps Home Network Validation
 
 Validated an 8 Gbps home network build using Google Fiber and UniFi stack. Achieved near line-rate performance with low latency after physical layer adjustments and manual tuning.
