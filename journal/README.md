@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-18 — 8 Gbps Home Network Validation
+
+Validated an 8 Gbps home network build using Google Fiber and UniFi stack. Achieved near line-rate performance with low latency after physical layer adjustments and manual tuning.
+
+More details: https://eugeneivanov.dev/journal/networking/8gbps-home-network-unifi-google-fiber/
+
+---
+
 ## 2026-03-18 - Umami
 
 Planned deployment of Umami (self-hosted analytics) on the Dell node after completing the Linux setup. Chosen for its lightweight, privacy-focused design and to gain hands-on experience deploying a real service. It will serve as the first production-like service in the home lab.
