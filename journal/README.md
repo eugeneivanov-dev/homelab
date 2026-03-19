@@ -4,11 +4,19 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-18 — Home Network Segmentation (VLANs, WiFi, Firewall)
+
+Implemented VLAN-based segmentation with UniFi, configured multiple WiFi networks and firewall rules to isolate traffic and secure the home lab
+
+More details: https://eugeneivanov.dev/journal/networking/home-network-segmentation/
+
+---
+
 ## 2026-03-18 — Troubleshooting UniFi WAN Failover After Switching to SFP+  
 
 Resolved a false WAN failover event caused by incorrect WAN role assignment after moving the primary connection to SFP+.  
 
-https://eugeneivanov.dev/journal/troubleshooting/unifi-wan-failover-after-sfp-switch/
+More details: https://eugeneivanov.dev/journal/troubleshooting/unifi-wan-failover-after-sfp-switch/
 
 ---
 
