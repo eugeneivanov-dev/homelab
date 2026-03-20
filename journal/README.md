@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-19 — Quarantine Network & Port Isolation (UniFi)
+
+Designed and implemented a quarantine VLAN with Layer 3 firewall rules to isolate untrusted devices and convert unused switch ports into controlled, low-trust entry points.
+
+More details: https://eugeneivanov.dev/journal/networking/quarantine-network-unifi/
+
+---
+
 ## 2026-03-18 — Home Network Segmentation (VLANs, WiFi, Firewall)
 
 Implemented VLAN-based segmentation with UniFi, configured multiple WiFi networks and firewall rules to isolate traffic and secure the home lab
