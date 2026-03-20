@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-20 - Troubleshooting UniFi 10G Link: SFP+ to RJ45
+
+Diagnosed a 1GbE fallback caused by an SFP+ to 2.5G RJ45 negotiation mismatch and restored a stable 10GbE link using SFP+ modules on both ends.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/unifi-10g-sfp-rj45-mismatch/
+
+---
+
 ## 2026-03-19 — Quarantine Network & Port Isolation (UniFi)
 
 Designed and implemented a quarantine VLAN with Layer 3 firewall rules to isolate untrusted devices and convert unused switch ports into controlled, low-trust entry points.
