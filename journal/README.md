@@ -4,6 +4,15 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-20 - Correction: Why I Abandoned the Upgrade Path for My First Compute Node 
+ 
+Validated hardware limitations of a Dell Micro system, abandoned upgrade-based strategy, and shifted to a fixed 64GB baseline configuration.  
+
+More details: https://eugeneivanov.dev/journal/networking/compute-node-upgrade-correction/
+
+
+---
+
 ## 2026-03-20 - Troubleshooting UniFi 10G Link: SFP+ to RJ45
 
 Diagnosed a 1GbE fallback caused by an SFP+ to 2.5G RJ45 negotiation mismatch and restored a stable 10GbE link using SFP+ modules on both ends.
