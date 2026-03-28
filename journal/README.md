@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-28 - Philips Hue VLAN Troubleshooting
+
+Restored Hue after VLAN move by renewing DHCP, assigning fixed IPs, adding a targeted firewall rule, and enabling mDNS.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/troubleshooting-philips-hue-iot-vlan-unifi/
+
+---
+
 ## 2026-03-20 - Correction: Why I Abandoned the Upgrade Path for My First Compute Node 
  
 Validated hardware limitations of a Dell Micro system, abandoned upgrade-based strategy, and shifted to a fixed 64GB baseline configuration.  
