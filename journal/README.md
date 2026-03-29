@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+### 2026-03-29 — From Linux to System Thinking
+
+Moved from “learning Linux” to designing a role-based home lab architecture with analytics, monitoring, access, and identity.
+
+More details: https://eugeneivanov.dev/journal/linux/home-lab-architecture-from-linux-to-system-thinking/
+
+---
+
 ## 2026-03-29 — First Ubuntu Server Deployment in Home Lab
 
 Deployed my first Ubuntu Server VM on Proxmox with static IP, SSH key authentication, and initial system validation.
