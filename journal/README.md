@@ -4,7 +4,7 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
-### 2026-03-29 — From Linux to System Thinking
+## 2026-03-30 — From Linux to System Thinking
 
 Moved from “learning Linux” to designing a role-based home lab architecture with analytics, monitoring, access, and identity.
 
