@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-29 — Proxmox First Node Installation Completed
+
+Deployed my first Proxmox VE node on a Dell Micro system with proper BIOS update, storage configuration, and VLAN-based network integration.
+
+More details: https://eugeneivanov.dev/journal/networking/proxmox-first-node-installation/
+
+---
+
 ## 2026-03-28 - Philips Hue VLAN Troubleshooting
 
 Restored Hue after VLAN move by renewing DHCP, assigning fixed IPs, adding a targeted firewall rule, and enabling mDNS.
