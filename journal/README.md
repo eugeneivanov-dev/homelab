@@ -8,7 +8,7 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 Deployed my first Ubuntu Server VM on Proxmox with static IP, SSH key authentication, and initial system validation.
 
-More details: https://eugeneivanov.dev/journal/linux/first-ubuntu-server-deployment/
+More details: https://eugeneivanov.dev/journal/linux/first-linux-server-ubuntu-proxmox-installation/
 
 ---
 
