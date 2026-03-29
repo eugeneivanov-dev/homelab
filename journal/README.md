@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-03-29 — First Ubuntu Server Deployment in Home Lab
+
+Deployed my first Ubuntu Server VM on Proxmox with static IP, SSH key authentication, and initial system validation.
+
+More details: https://eugeneivanov.dev/journal/linux/first-ubuntu-server-deployment/
+
+---
+
 ## 2026-03-29 — Proxmox First Node Installation Completed
 
 Deployed my first Proxmox VE node on a Dell Micro system with proper BIOS update, storage configuration, and VLAN-based network integration.
