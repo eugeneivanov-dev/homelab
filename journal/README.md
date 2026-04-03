@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-03 — Productionizing Umami Analytics with Backup and Recovery
+
+Deployed a self-hosted analytics stack with Cloudflare Tunnel and automated Proxmox backups, turning it into a secure and fully recoverable system.
+
+More details: https://eugeneivanov.dev/journal/linux/umami-cloudflare-tunnel-proxmox-backup/
+
+---
+
 ## 2026-03-30 — From Linux to System Thinking
 
 Moved from “learning Linux” to designing a role-based home lab architecture with analytics, monitoring, access, and identity.
