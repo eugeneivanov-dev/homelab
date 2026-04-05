@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-04 - Synology NAS VLAN Migration Troubleshooting
+
+Diagnosed and resolved NAS inaccessibility after VLAN migration, identifying improper shutdown as the root cause rather than a network issue.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/troubleshooting-synology-nas-vlan-unifi/
+
+---
+
 ## 2026-04-03 — Productionizing Umami Analytics with Backup and Recovery
 
 Deployed a self-hosted analytics stack with Cloudflare Tunnel and automated Proxmox backups, turning it into a secure and fully recoverable system.
