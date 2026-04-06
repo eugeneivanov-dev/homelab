@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-04 - Minecraft Server with Python Integration
+
+Built and validated a self-hosted Minecraft server with remote access, systemd management, backups, and Python control via RaspberryJuice.
+
+More details: https://eugeneivanov.dev/journal/linux/minecraft-server-proxmox-tailscale-python/
+
+---
+
 ## 2026-04-04 - Synology NAS VLAN Migration Troubleshooting
 
 Diagnosed and resolved NAS inaccessibility after VLAN migration, identifying improper shutdown as the root cause rather than a network issue.
