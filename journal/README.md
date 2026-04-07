@@ -4,7 +4,15 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
-## 2026-04-04 - Minecraft Server with Python Integration
+## 2026-04-06 — Fixed Umami tracking issue caused by invalid HTML in Hugo
+
+Resolved a silent analytics failure by identifying a missing closing script tag that broke tracking despite a fully working backend and tunnel.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/umami-not-tracking-hugo-cloudflare-tunnel/
+
+---
+
+## 2026-04-06 - Minecraft Server with Python Integration
 
 Built and validated a self-hosted Minecraft server with remote access, systemd management, backups, and Python control via RaspberryJuice.
 
