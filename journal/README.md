@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-10 - Roadmap Reframed
+
+I restructured my infrastructure engineering roadmap to reflect a clearer long-term direction from hands-on systems work toward architecture, resilience, and complex environment design.
+
+More details: https://eugeneivanov.dev/roadmap/
+
+---
+
 ## 2026-04-06 — Fixed Umami tracking issue caused by invalid HTML in Hugo
 
 Resolved a silent analytics failure by identifying a missing closing script tag that broke tracking despite a fully working backend and tunnel.
