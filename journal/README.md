@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-11 - Roadmap Expanded with Certifications and Reading
+
+I updated my infrastructure roadmap to include a focused certification path and a core technical reading library to support deeper systems thinking and long-term architectural growth.
+
+More details: https://eugeneivanov.dev/roadmap/
+
+---
+
 ## 2026-04-10 - Roadmap Reframed
 
 I restructured my infrastructure engineering roadmap to reflect a clearer long-term direction from hands-on systems work toward architecture, resilience, and complex environment design.
