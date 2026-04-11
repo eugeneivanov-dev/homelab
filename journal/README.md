@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-11 - Stabilizing a Proxmox Host That Stayed Powered On but Dropped Off the Network
+
+Documented how I diagnosed an intermittent Proxmox network hang, confirmed a temporary fix by disabling NIC offloading, and then made the solution persistent after 120 hours of stability.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/proxmox-host-powered-on-but-offline-nic-offloading-fix/
+
+---
+
 ## 2026-04-11 - Roadmap Expanded with Certifications and Reading
 
 I updated my infrastructure roadmap to include a focused certification path and a core technical reading library to support deeper systems thinking and long-term architectural growth.
