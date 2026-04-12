@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-12 - Tailscale ACL for Minecraft Access Control
+
+Implemented controlled remote access to a private Minecraft server using Tailscale ACLs, transitioning from open network trust to explicit, group-based access rules.
+
+More details: https://eugeneivanov.dev/journal/networking/tailscale-acl-minecraft-access-control/
+
+---
+
 ## 2026-04-11 - Stabilizing a Proxmox Host That Stayed Powered On but Dropped Off the Network
 
 Documented how I diagnosed an intermittent Proxmox network hang, confirmed a temporary fix by disabling NIC offloading, and then made the solution persistent after 120 hours of stability.
