@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-15 - DNS, CCNA, and a better learning loop
+
+Returned to Google IT Support, saw the need for a dedicated DNS server in my lab, and confirmed that pairing structured study with deeper CCNA reading is the best fit for how I learn and turn new knowledge into infrastructure decisions.
+
+More details: https://eugeneivanov.dev/journal/labnotes/from-dns-to-ccna-a-better-learning-loop/
+
+---
+
 ## 2026-04-12 - Tailscale ACL for Minecraft Access Control
 
 Implemented controlled remote access to a private Minecraft server using Tailscale ACLs, transitioning from open network trust to explicit, group-based access rules.
@@ -72,7 +80,7 @@ More details: https://eugeneivanov.dev/journal/linux/umami-cloudflare-tunnel-pro
 
 Moved from “learning Linux” to designing a role-based home lab architecture with analytics, monitoring, access, and identity.
 
-More details: https://eugeneivanov.dev/journal/linux/home-lab-architecture-from-linux-to-system-thinking/
+More details: https://eugeneivanov.dev/journal/labnotes/home-lab-architecture-from-linux-to-system-thinking/
 
 ---
 
@@ -88,7 +96,7 @@ More details: https://eugeneivanov.dev/journal/linux/first-linux-server-ubuntu-p
 
 Deployed my first Proxmox VE node on a Dell Micro system with proper BIOS update, storage configuration, and VLAN-based network integration.
 
-More details: https://eugeneivanov.dev/journal/networking/proxmox-first-node-installation/
+More details: https://eugeneivanov.dev/journal/hardware/proxmox-first-node-installation/
 
 ---
 
@@ -100,11 +108,11 @@ More details: https://eugeneivanov.dev/journal/troubleshooting/troubleshooting-p
 
 ---
 
-## 2026-03-20 - Correction: Why I Abandoned the Upgrade Path for My First Compute Node 
+## 2026-03-24 - Correction: Why I Abandoned the Upgrade Path for My First Compute Node 
  
 Validated hardware limitations of a Dell Micro system, abandoned upgrade-based strategy, and shifted to a fixed 64GB baseline configuration.  
 
-More details: https://eugeneivanov.dev/journal/networking/compute-node-upgrade-correction/
+More details: https://eugeneivanov.dev/journal/hardware/compute-node-upgrade-correction/
 
 
 ---
@@ -145,7 +153,7 @@ More details: https://eugeneivanov.dev/journal/troubleshooting/unifi-wan-failove
 
 Implemented and documented role-based access in my UniFi home lab by separating Owner and Site Admin responsibilities to apply least privilege in daily operations.
 
-More details: https://eugeneivanov.dev/journal/networking/role-based-access-unifi/
+More details: https://eugeneivanov.dev/journal/labnotes/role-based-access-unifi/
 
 ---
 
@@ -167,15 +175,15 @@ Planned deployment of Umami (self-hosted analytics) on the Dell node after compl
 
 Documented compute node selection for home lab. Prioritized architecture and scalability over maximum initial specs.
 
-More details: https://eugeneivanov.dev/journal/networking/compute-node-selection/
+More details: https://eugeneivanov.dev/journal/hardware/compute-node-selection/
 
 ---
 
-## 2026-03-08 — Assembling the Home Lab Rack
+## 2026-03-10 — Assembling the Home Lab Rack
 
 Assembled the rack and revised the layout to properly fit the NAS, UPS, and rack shelves.
 
-More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-assembly/
+More details: https://eugeneivanov.dev/journal/hardware/home-lab-rack-assembly/
 
 ---
 
@@ -183,7 +191,7 @@ More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-assembly
 
 Installed the rack patch panel and terminated the house Ethernet cabling.
 
-More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-patch-panel-installation/
+More details: https://eugeneivanov.dev/journal/hardware/home-lab-rack-patch-panel-installation/
 
 ---
 
@@ -192,7 +200,7 @@ More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-patch-pa
 Installed a StarTech 12U wall-mounted rack with a plywood backboard anchored to wall studs.  
 Prepared mounting surface for switches, NAS, and UPS.
 
-More details: https://eugeneivanov.dev/journal/networking/network-rack-backboard/
+More details: https://eugeneivanov.dev/journal/hardware/network-rack-backboard/
 
 ---
 
@@ -200,7 +208,7 @@ More details: https://eugeneivanov.dev/journal/networking/network-rack-backboard
 
 Designed the rack layout and selected networking, compute, and power infrastructure components.
 
-More details: https://eugeneivanov.dev/journal/networking/home-lab-rack-equipment-planning/
+More details: https://eugeneivanov.dev/journal/hardware/home-lab-rack-equipment-planning/
 
 ---
 
