@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-16 - Rethinking VLANs, automation, and the next stage of my home lab
+
+A useful conversation with a Senior Systems Engineer helped me sharpen how I think about VLAN boundaries, reproducible infrastructure, automation, cloud, and the right build order for the next stage of my lab.
+
+More details: https://eugeneivanov.dev/journal/labnotes/rethinking-vlans-automation-and-home-lab/
+
+---
+
 ## 2026-04-15 - DNS, CCNA, and a better learning loop
 
 Returned to Google IT Support, saw the need for a dedicated DNS server in my lab, and confirmed that pairing structured study with deeper CCNA reading is the best fit for how I learn and turn new knowledge into infrastructure decisions.
