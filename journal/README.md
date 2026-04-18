@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-17 - The real goal of automation
+
+The goal is not simply moving from GUI to CLI, but moving from touching one thing at a time toward controlling the whole estate.
+
+More details: https://eugeneivanov.dev/journal/labnotes/follow-up-that-clarified-the-real-goal-of-automation/
+
+---
+
 ## 2026-04-16 - Rethinking VLANs, automation, and the next stage of my home lab
 
 A useful conversation with a Senior Systems Engineer helped me sharpen how I think about VLAN boundaries, reproducible infrastructure, automation, cloud, and the right build order for the next stage of my lab.
