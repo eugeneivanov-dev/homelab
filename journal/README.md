@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-25 - Defining My CCNA Preparation Stack
+
+A short lab note on how I structured my CCNA preparation around a primary path, delayed reinforcement, and practical lab work without turning the process into unnecessary duplication.
+
+More details: https://eugeneivanov.dev/journal/labnotes/defining-my-ccna-preparation-stack/
+
+---
+
 ## 2026-04-24 - Protecting the First Cognitive Block of the Day
 
 A short note on why I now keep the first work block of the day for learning and move heavier operational and execution tasks later.
