@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-04-24 - Protecting the First Cognitive Block of the Day
+
+A short note on why I now keep the first work block of the day for learning and move heavier operational and execution tasks later.
+
+More details: https://eugeneivanov.dev/journal/labnotes/protecting-the-first-cognitive-block-of-the-day/
+
+---
+
 ## 2026-04-17 - The real goal of automation
 
 The goal is not simply moving from GUI to CLI, but moving from touching one thing at a time toward controlling the whole estate.
