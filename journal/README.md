@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-06 — Fixed Proxmox Enterprise Repository Update Errors
+
+Investigated repeated apt update failures in Proxmox, identified unauthorized enterprise repositories as the root cause, migrated the node to the no-subscription repository, and restored normal package update operation.
+
+More details:  https://eugeneivanov.dev/journal/troubleshooting/fixing-proxmox-enterprise-repository-update-errors/
+
+---
+
 ## 2026-04-25 - Defining My CCNA Preparation Stack
 
 A short lab note on how I structured my CCNA preparation around a primary path, delayed reinforcement, and practical lab work without turning the process into unnecessary duplication.
