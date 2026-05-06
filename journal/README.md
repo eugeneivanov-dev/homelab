@@ -8,7 +8,7 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 Investigated repeated apt update failures in Proxmox, identified unauthorized enterprise repositories as the root cause, migrated the node to the no-subscription repository, and restored normal package update operation.
 
-More details:  https://eugeneivanov.dev/journal/troubleshooting/fixing-proxmox-enterprise-repository-update-errors/
+More details:  https://eugeneivanov.dev/journal/troubleshooting/fixing-proxmox-enterprise-repository-errors/
 
 ---
 
