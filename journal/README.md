@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-07 - Self-Hosted Matomo Analytics with Docker and Cloudflare Tunnel
+
+Deployed Matomo on a dedicated Ubuntu VM with Docker Compose and MariaDB, exposed it through Cloudflare Tunnel, added the tracking code to the site, and configured both VM-level and database-level backups.
+
+More details: https://eugeneivanov.dev/journal/linux/matomo-self-hosted-docker-cloudflare-tunnel/
+
+---
+
 ## 2026-05-07 - Self-Hosted Plausible Analytics Deployment
 
 Deployed Plausible Community Edition on Ubuntu Server using Docker Compose and Cloudflare Tunnel with realtime analytics successfully tracking live traffic.
