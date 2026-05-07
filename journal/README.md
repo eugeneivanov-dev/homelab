@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-07 - Self-Hosted Plausible Analytics Deployment
+
+Deployed Plausible Community Edition on Ubuntu Server using Docker Compose and Cloudflare Tunnel with realtime analytics successfully tracking live traffic.
+
+More details: https://eugeneivanov.dev/journal/linux/plausible-self-hosted-docker-cloudflare-tunnel/
+
+---
+
 ## 2026-05-06 — Updated Umami Analytics Stack to Version 3.1
 
 Updated the self-hosted Umami analytics stack on Ubuntu with Docker Compose, verified database migrations, validated realtime tracking, and confirmed analytics collection across multiple devices and operating systems.
