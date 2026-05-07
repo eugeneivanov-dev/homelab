@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-06 — Updated Umami Analytics Stack to Version 3.1
+
+Updated the self-hosted Umami analytics stack on Ubuntu with Docker Compose, verified database migrations, validated realtime tracking, and confirmed analytics collection across multiple devices and operating systems.
+
+More details: https://eugeneivanov.dev/journal/linux/updating-umami-to-version-3-1/
+
+---
+
 ## 2026-05-06 — Fixed Proxmox Enterprise Repository Update Errors
 
 Investigated repeated apt update failures in Proxmox, identified unauthorized enterprise repositories as the root cause, migrated the node to the no-subscription repository, and restored normal package update operation.
