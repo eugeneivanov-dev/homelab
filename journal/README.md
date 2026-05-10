@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-10 — Deploying Prometheus and Grafana on an Ubuntu Monitoring VM
+
+Deployed the initial monitoring core with Prometheus, Grafana, and Node Exporter on an Ubuntu Server VM using Docker Compose, persistent volumes, Prometheus target validation, and a working Grafana datasource.
+
+More details: https://eugeneivanov.dev/journal/labnotes/deploying-prometheus-and-grafana-on-ubuntu-monitoring-vm/
+
+---
+
 ## 2026-05-10 — Preparing an Ubuntu Server VM for Docker-Based Infrastructure Services
 
 Documented a repeatable Ubuntu Server VM baseline for Docker-based infrastructure services, including system validation, Docker installation, Docker Compose checks, project directory structure, and basic operational readiness.
