@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-10 — Preparing an Ubuntu Server VM for Docker-Based Infrastructure Services
+
+Documented a repeatable Ubuntu Server VM baseline for Docker-based infrastructure services, including system validation, Docker installation, Docker Compose checks, project directory structure, and basic operational readiness.
+
+More details: https://eugeneivanov.dev/journal/linux/preparing-ubuntu-server-vm-for-docker-infrastructure/
+
+---
+
 ## 2026-05-09 - Custom 404 Page with Correct Nginx Error Handling
 
 Built a branded Hugo 404 page and configured production Nginx behavior so missing routes preserve HTTP 404 status while displaying the custom error page.
