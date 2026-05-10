@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-10 — Monitoring HTTP Service Availability with Blackbox Exporter
+
+Added HTTP service availability monitoring with Blackbox Exporter, Prometheus probe_success checks, Grafana UP/DOWN status panels, and validation for self-hosted lab services.
+
+More details: https://eugeneivanov.dev/journal/labnotes/monitoring-http-service-availability-with-blackbox-exporter/
+
+---
+
 ## 2026-05-10 — Monitoring Linux VMs with Node Exporter and Prometheus
 
 Expanded the monitoring stack from a single monitoring VM to multiple Linux VMs using Node Exporter, UFW access control, Prometheus scrape targets, readable instance labels, and Grafana validation.
