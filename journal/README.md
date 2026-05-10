@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-10 — Adding Proxmox Monitoring with Prometheus PVE Exporter
+
+Integrated Proxmox into the monitoring stack with a dedicated API user and token, Prometheus PVE Exporter, pve_up validation, and Grafana panels for node, VM, storage, disk, and memory metrics.
+
+More details: https://eugeneivanov.dev/journal/labnotes/adding-proxmox-monitoring-with-prometheus-pve-exporter/
+
+---
+
 ## 2026-05-10 — Monitoring HTTP Service Availability with Blackbox Exporter
 
 Added HTTP service availability monitoring with Blackbox Exporter, Prometheus probe_success checks, Grafana UP/DOWN status panels, and validation for self-hosted lab services.
