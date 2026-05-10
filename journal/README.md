@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-09 - Custom 404 Page with Correct Nginx Error Handling
+
+Built a branded Hugo 404 page and configured production Nginx behavior so missing routes preserve HTTP 404 status while displaying the custom error page.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/custom-404-page-hugo-nginx-cloudways/
+
+---
+
 ## 2026-05-07 - Self-Hosted Matomo Analytics with Docker and Cloudflare Tunnel
 
 Deployed Matomo on a dedicated Ubuntu VM with Docker Compose and MariaDB, exposed it through Cloudflare Tunnel, added the tracking code to the site, and configured both VM-level and database-level backups.
