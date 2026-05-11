@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-11 — Organizing Grafana Dashboards for Home Lab Observability
+
+Organized the Grafana dashboard layer into focused views for Linux VM metrics, HTTP service availability, Proxmox infrastructure health, and alert visibility across the home lab monitoring stack.
+
+More details: https://eugeneivanov.dev/journal/labnotes/organizing-grafana-dashboards-for-home-lab-observability/
+
+---
+
 ## 2026-05-10 — Adding Proxmox Monitoring with Prometheus PVE Exporter
 
 Integrated Proxmox into the monitoring stack with a dedicated API user and token, Prometheus PVE Exporter, pve_up validation, and Grafana panels for node, VM, storage, disk, and memory metrics.
