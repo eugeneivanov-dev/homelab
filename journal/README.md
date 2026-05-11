@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-11 — Configuring Grafana Alerts and Email Notifications with Proton SMTP
+
+Configured Grafana alert rules and Proton SMTP email notifications for HTTP service availability, Proxmox objects, Node Exporter targets, disk usage, memory usage, and controlled DOWN/UP alert validation.
+
+More details: https://eugeneivanov.dev/journal/labnotes/configuring-grafana-alerts-and-email-notifications-with-proton-smtp/
+
+---
+
 ## 2026-05-11 — Organizing Grafana Dashboards for Home Lab Observability
 
 Organized the Grafana dashboard layer into focused views for Linux VM metrics, HTTP service availability, Proxmox infrastructure health, and alert visibility across the home lab monitoring stack.
