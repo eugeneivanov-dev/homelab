@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-11 — Building a Self-Hosted Observability Stack for a Home Lab
+
+Published a high-level overview of the self-hosted observability stack, linking the full series covering Ubuntu VM preparation, Prometheus, Grafana, Node Exporter, Blackbox Exporter, Proxmox monitoring, dashboards, and alerting.
+
+More details: https://eugeneivanov.dev/journal/labnotes/building-self-hosted-observability-stack-for-home-lab/
+
+---
+
 ## 2026-05-11 — Configuring Grafana Alerts and Email Notifications with Proton SMTP
 
 Configured Grafana alert rules and Proton SMTP email notifications for HTTP service availability, Proxmox objects, Node Exporter targets, disk usage, memory usage, and controlled DOWN/UP alert validation.
