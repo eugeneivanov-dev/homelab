@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-12 - Troubleshooting Noisy Grafana Memory Alerts in a Proxmox Home Lab
+
+Investigated noisy Grafana memory alerts, confirmed the VM had no real Linux memory pressure, and replaced the Proxmox memory-percentage alert with a more accurate node_exporter MemAvailable-based rule.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/troubleshooting-noisy-grafana-memory-alerts-proxmox/
+
+---
+
 ## 2026-05-11 — Building a Self-Hosted Observability Stack for a Home Lab
 
 Published a high-level overview of the self-hosted observability stack, linking the full series covering Ubuntu VM preparation, Prometheus, Grafana, Node Exporter, Blackbox Exporter, Proxmox monitoring, dashboards, and alerting.
