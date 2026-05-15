@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-15 — Planned NetBox Source of Truth Implementation
+
+Defined a project to deploy NetBox as the internal source of truth for documenting network devices, VLANs, IPAM, cabling, Proxmox virtualization, services, monitoring, and backup expectations in the home infrastructure lab.
+
+More details: https://eugeneivanov.dev/projects/netbox-source-of-truth-implementation/
+
+---
+
 ## 2026-05-12 - Troubleshooting Noisy Grafana Memory Alerts in a Proxmox Home Lab
 
 Investigated noisy Grafana memory alerts, confirmed the VM had no real Linux memory pressure, and replaced the Proxmox memory-percentage alert with a more accurate node_exporter MemAvailable-based rule.
