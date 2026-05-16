@@ -4,6 +4,22 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-16 - Planned Windows Server 2025 Infrastructure Lab
+
+Planned a staged Windows Server 2025 infrastructure lab on Proxmox with Active Directory, DNS, Windows 11 domain clients, Group Policy, file services, and future Domain Controller redundancy.
+
+More details: https://eugeneivanov.dev/projects/windows-server-2025-infrastructure-lab-on-proxmox/
+
+---
+
+## 2026-05-16 - Wireshark Packet Analysis Workflow
+
+Defined a practical packet capture workflow for the home lab using Wireshark, tcpdump, and UniFi port mirroring to support evidence-based network troubleshooting.
+
+More details: https://eugeneivanov.dev/projects/wireshark-packet-analysis-workflow/
+
+---
+
 ## 2026-05-15 — Planned NetBox Source of Truth Implementation
 
 Defined a project to deploy NetBox as the internal source of truth for documenting network devices, VLANs, IPAM, cabling, Proxmox virtualization, services, monitoring, and backup expectations in the home infrastructure lab.
@@ -320,6 +336,8 @@ More details: https://eugeneivanov.dev/journal/networking/8gbps-home-network-uni
 ## 2026-03-18 - Umami
 
 Planned deployment of Umami (self-hosted analytics) on the Dell node after completing the Linux setup. Chosen for its lightweight, privacy-focused design and to gain hands-on experience deploying a real service. It will serve as the first production-like service in the home lab.
+
+More details: https://eugeneivanov.dev/journal/labnotes/role-based-access-unifi/
 
 ---
 
