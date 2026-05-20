@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-20 — Building a Cross-Platform Unity Workspace for a Beginner C# Programmer
+
+Set up a clean Windows and macOS development workflow for a beginner Unity/C# programmer using GitHub as the source of truth, a proper Unity .gitignore, and a structured first project repository.
+
+More details: https://eugeneivanov.dev/journal/labnotes/building-cross-platform-unity-workspace-for-beginner-csharp-programmer/
+
+---
+
 ## 2026-05-16 - Planned Windows Server 2025 Infrastructure Lab
 
 Planned a staged Windows Server 2025 infrastructure lab on Proxmox with Active Directory, DNS, Windows 11 domain clients, Group Policy, file services, and future Domain Controller redundancy.
