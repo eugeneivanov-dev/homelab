@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-21 - Planned Enterprise Linux Administration Lab on Proxmox
+
+Defined a new Proxmox-based enterprise Linux lab project focused on RHEL administration, Oracle Linux comparison, SELinux, firewalld, systemd services, monitoring, and storage mount practice.
+
+More details: https://eugeneivanov.dev/projects/enterprise-linux-administration-lab-on-proxmox/
+
+---
+
 ## 2026-05-21 — Microsoft 365 Identity and Endpoint Administration Lab
 
 Added a project to study Microsoft 365 as an enterprise platform for identity, access, collaboration services, security basics, and endpoint management.
