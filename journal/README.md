@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-21 — Microsoft 365 Identity and Endpoint Administration Lab
+
+Added a project to study Microsoft 365 as an enterprise platform for identity, access, collaboration services, security basics, and endpoint management.
+
+More details: https://eugeneivanov.dev/projects/microsoft-365-identity-and-endpoint-administration-lab/
+
+---
+
 ## 2026-05-20 — CCNA Foundation for Infrastructure Engineering
 
 Defined a focused project to use CCNA not as a checkbox certification, but as a structured path for building networking thinking, packet-flow understanding, and stronger infrastructure troubleshooting skills.
