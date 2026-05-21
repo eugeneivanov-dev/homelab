@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-20 — CCNA Foundation for Infrastructure Engineering
+
+Defined a focused project to use CCNA not as a checkbox certification, but as a structured path for building networking thinking, packet-flow understanding, and stronger infrastructure troubleshooting skills.
+
+More details: https://eugeneivanov.dev/projects/ccna-foundation-for-infrastructure-engineering/
+
+---
+
 ## 2026-05-20 — Building a Cross-Platform Unity Workspace for a Beginner C# Programmer
 
 Set up a clean Windows and macOS development workflow for a beginner Unity/C# programmer using GitHub as the source of truth, a proper Unity .gitignore, and a structured first project repository.
