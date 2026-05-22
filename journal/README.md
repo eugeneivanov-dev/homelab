@@ -4,6 +4,22 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-22 — Applied RHCSA Linux Administration
+
+Added a planned RHCSA-based project to build practical Linux administration depth after the networking foundation, focusing on operating, configuring, troubleshooting, and validating Linux systems in an infrastructure environment.
+
+More details: https://eugeneivanov.dev/projects/applied-rhcsa-linux-administration/
+
+---
+
+## 2026-05-22 — Linux Networking for Infrastructure Troubleshooting
+
+Added a planned follow-up project to deepen Linux networking skills after the CCNA foundation, focusing on server-side troubleshooting across interfaces, routes, DNS, ports, firewalls, Proxmox networking, and packet evidence.
+
+More details: https://eugeneivanov.dev/projects/linux-networking-for-infrastructure-troubleshooting/
+
+---
+
 ## 2026-05-21 - Planned Enterprise Linux Administration Lab on Proxmox
 
 Defined a new Proxmox-based enterprise Linux lab project focused on RHEL administration, Oracle Linux comparison, SELinux, firewalld, systemd services, monitoring, and storage mount practice.
