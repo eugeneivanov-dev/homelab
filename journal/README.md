@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-23 - Planned a Self-Hosted Newsletter and RSS Automation System
+
+Outlined a new infrastructure project to connect my Hugo engineering journal and project updates with a self-hosted listmonk VM, PostgreSQL, Amazon SES delivery, DNS authentication, backups, and monitoring.
+
+More details: https://eugeneivanov.dev/projects/self-hosted-newsletter-and-rss-automation-system-for-hugo/
+
+---
+
 ## 2026-05-22 - Updated Proxmox VE to 9.2.2
 
 Completed a controlled Proxmox VE home lab maintenance window by upgrading from 9.1 to 9.2.2, rebooting the node, and validating that all VMs, storage targets, and package updates were healthy.
