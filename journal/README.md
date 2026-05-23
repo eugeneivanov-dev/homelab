@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-22 - Updated Proxmox VE to 9.2.2
+
+Completed a controlled Proxmox VE home lab maintenance window by upgrading from 9.1 to 9.2.2, rebooting the node, and validating that all VMs, storage targets, and package updates were healthy.
+
+More details: https://eugeneivanov.dev/journal/linux/updating-proxmox-ve-from-9-1-to-9-2-2/
+
+---
+
 ## 2026-05-22 — Applied RHCSA Linux Administration
 
 Added a planned RHCSA-based project to build practical Linux administration depth after the networking foundation, focusing on operating, configuring, troubleshooting, and validating Linux systems in an infrastructure environment.
