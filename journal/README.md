@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-24 — Planned a Self-Hosted Website Audit Crawler
+
+Planned a dedicated SiteOne Crawler VM to run repeatable technical audits of the Hugo engineering journal, checking links, redirects, sitemap output, canonical rules, noindex behavior, and crawl quality.
+
+More details: https://eugeneivanov.dev/projects/self-hosted-website-audit-crawler-for-hugo/
+
+---
+
 ## 2026-05-23 - Planned a Self-Hosted Newsletter and RSS Automation System
 
 Outlined a new infrastructure project to connect my Hugo engineering journal and project updates with a self-hosted listmonk VM, PostgreSQL, Amazon SES delivery, DNS authentication, backups, and monitoring.
