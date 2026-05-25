@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-25 — Fixed Recurring GitHub Authentication Prompts with SSH
+
+Resolved constant GitHub credential prompts across four repositories by diagnosing the root cause with git log and git remote, then replacing per-repo personal access tokens with a single dedicated SSH key, a scoped SSH config, and SSH-based remotes.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/fixing-github-auth-with-ssh/
+
+---
+
 ## 2026-05-24 — Planned a Self-Hosted Website Audit Crawler
 
 Planned a dedicated SiteOne Crawler VM to run repeatable technical audits of the Hugo engineering journal, checking links, redirects, sitemap output, canonical rules, noindex behavior, and crawl quality.
