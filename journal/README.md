@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-01 — Private AI Inference Platform
+
+Designed a multi-node local AI platform on Proxmox with a LiteLLM control plane, observability, NetBox, and WireGuard, and wrote it up as a site project.
+
+More details: https://eugeneivanov.dev/projects/private-ai-inference-platform-home-lab/
+
+---
+
 ## 2026-06-01 - Self-Hosted Website Audits with SiteOne Crawler and systemd
 
 Built a dedicated Linux VM to run repeatable website audits with SiteOne Crawler, systemd automation, local reports, and optional Uptime Kuma monitoring.
