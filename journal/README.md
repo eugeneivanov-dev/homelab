@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-05-31 - Improved Proxmox Grafana dashboard readability
+
+Fixed the Proxmox monitoring dashboard by replacing qemu VM IDs with readable VM names and correcting percentage scaling for storage and memory panels.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/improving-proxmox-dashboard-readability-grafana/
+
+---
+
 ## 2026-05-25 — Fixed Recurring GitHub Authentication Prompts with SSH
 
 Resolved constant GitHub credential prompts across four repositories by diagnosing the root cause with git log and git remote, then replacing per-repo personal access tokens with a single dedicated SSH key, a scoped SSH config, and SSH-based remotes.
