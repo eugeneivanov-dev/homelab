@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-01 - Self-Hosted Website Audits with SiteOne Crawler and systemd
+
+Built a dedicated Linux VM to run repeatable website audits with SiteOne Crawler, systemd automation, local reports, and optional Uptime Kuma monitoring.
+
+More details: https://eugeneivanov.dev/journal/linux/self-hosted-website-audits-siteone-crawler-systemd/
+
+---
+
 ## 2026-05-31 - Improved Proxmox Grafana dashboard readability
 
 Fixed the Proxmox monitoring dashboard by replacing qemu VM IDs with readable VM names and correcting percentage scaling for storage and memory panels.
