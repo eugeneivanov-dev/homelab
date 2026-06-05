@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-05 — Self-hosted newsletter is live
+
+Stood up a self-hosted listmonk newsletter end to end — double opt-in signups from the site, authenticated delivery via Resend, public access through a Cloudflare Tunnel with the admin behind Zero Trust, plus local backups and monitoring.
+
+More details: https://eugeneivanov.dev/journal/linux/self-hosted-newsletter-listmonk-resend-cloudflare-tunnel/
+
+---
+
 ## 2026-06-01 — Private AI Inference Platform
 
 Designed a multi-node local AI platform on Proxmox with a LiteLLM control plane, observability, NetBox, and WireGuard, and wrote it up as a site project.
