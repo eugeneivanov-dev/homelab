@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-06 — Fixing a Phantom “Unknown Error” on a Cisco 8861 MPP Phone
+
+Tracked down a misleading firmware upgrade failure and cleared the phone’s first-boot activation prompt.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/cisco-8861-mpp-firmware-upgrade-unknown-error/
+
+---
+
 ## 2026-06-05 — Self-hosted newsletter is live
 
 Stood up a self-hosted listmonk newsletter end to end — double opt-in signups from the site, authenticated delivery via Resend, public access through a Cloudflare Tunnel with the admin behind Zero Trust, plus local backups and monitoring.
