@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-07 — A Self-Hosted Phone System (PBX) on a Multi-Node Home Lab
+
+Planned a self-hosted PBX on Proxmox — a FreePBX brain with PoE Cisco IP phones, one shared SIP trunk, a dedicated voice VLAN, central provisioning, and monitoring — and wrote it up as a project with an architecture diagram.
+
+More details: https://eugeneivanov.dev/projects/self-hosted-pbx-home-lab/
+
+---
+
 ## 2026-06-06 — Fixing a Phantom “Unknown Error” on a Cisco 8861 MPP Phone
 
 Tracked down a misleading firmware upgrade failure and cleared the phone’s first-boot activation prompt.
