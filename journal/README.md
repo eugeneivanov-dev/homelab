@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-08 — New-Subscriber Email Notifications for Self-Hosted Listmonk
+
+A cron-driven poller that emails you on every Listmonk signup, plus the API permissions that stop list names showing as *Unknown.
+
+More details: https://eugeneivanov.dev/journal/linux/listmonk-new-subscriber-email-notifications/
+
+---
+
 ## 2026-06-07 — A Self-Hosted Phone System (PBX) on a Multi-Node Home Lab
 
 Planned a self-hosted PBX on Proxmox — a FreePBX brain with PoE Cisco IP phones, one shared SIP trunk, a dedicated voice VLAN, central provisioning, and monitoring — and wrote it up as a project with an architecture diagram.
