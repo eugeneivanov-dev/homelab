@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-14 - Second Proxmox node ready to join the cluster
+
+Commissioned the second Dell Micro as node pve2 and turned its two mismatched NVMe drives into a bootable ZFS mirror, leaving it ready to join the cluster.
+
+More details: https://eugeneivanov.dev/journal/hardware/proxmox-dell-cluster-node-prep/
+
+---
+
 ## 2026-06-08 — New-Subscriber Email Notifications for Self-Hosted Listmonk
 
 A cron-driven poller that emails you on every Listmonk signup, plus the API permissions that stop list names showing as *Unknown.
