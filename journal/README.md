@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-14 - Bootable ZFS RAID1 mirror across mismatched NVMe drives
+
+Turned pve2's single-disk ZFS root into a bootable two-way mirror across mismatched drives (a 1 TB and a matching slice of a 2 TB), reclaiming the leftover space as a second pool.
+
+More details: https://eugeneivanov.dev/journal/hardware/proxmox-zfs-raid1-mirror-mismatched-disks/
+
+---
+
 ## 2026-06-14 - Second Proxmox node ready to join the cluster
 
 Commissioned the second Dell Micro as node pve2 and turned its two mismatched NVMe drives into a bootable ZFS mirror, leaving it ready to join the cluster.
