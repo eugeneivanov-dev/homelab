@@ -4,6 +4,30 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-15 - A systemctl shim for non-systemd containers
+
+Worked around "System has not been booted with systemd" by swapping systemctl for a stub script so pvecm qdevice setup runs inside a Docker container.
+
+More details: https://eugeneivanov.dev/journal/linux/systemctl-shim-non-systemd-container/
+
+---
+
+## 2026-06-15 - External Proxmox QDevice on Synology in Docker
+
+Ran corosync-qnetd in a custom container on the DS720+ over macvlan to give a 2-node cluster a third quorum vote.
+
+More details: https://eugeneivanov.dev/journal/networking/proxmox-qdevice-synology-corosync-qnetd-docker/
+
+---
+
+## 2026-06-15 - Building a 2-node Proxmox cluster: FQDN and storage.cfg
+
+Formed the pve1/pve2 cluster and hit two traps — set the FQDN before clustering, and join overwrites storage.cfg on the joining node.
+
+More details: https://eugeneivanov.dev/journal/labnotes/proxmox-2-node-cluster-fqdn-storage-cfg/
+
+---
+
 ## 2026-06-14 - Bootable ZFS RAID1 mirror across mismatched NVMe drives
 
 Turned pve2's single-disk ZFS root into a bootable two-way mirror across mismatched drives (a 1 TB and a matching slice of a 2 TB), reclaiming the leftover space as a second pool.
