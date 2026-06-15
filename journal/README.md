@@ -2,6 +2,20 @@
 
 Short notes about infrastructure work, lab experiments, and physical network setup.
 
+## 2026-06-15 — Off-Node Proxmox Backups to Synology, Verified by Restore
+
+Backed up every guest in my two-node Proxmox cluster to a Synology over NFS and proved it by restoring a VM on the other node, before wiping anything.
+
+More details: https://eugeneivanov.dev/journal/labnotes/offnode-proxmox-backups-synology-verified-restore/
+
+---
+
+## 2026-06-15 — An Independent, Restore-Tested DB-Dump Layer for Homelab VMs
+
+Added a second backup layer — logical PostgreSQL and MariaDB dumps shipped off-node to a Synology — and verified each engine restores into a throwaway container.
+
+More details: https://eugeneivanov.dev/journal/linux/offnode-db-dump-layer-homelab-vms/
+
 ---
 
 ## 2026-06-15 - A systemctl shim for non-systemd containers
