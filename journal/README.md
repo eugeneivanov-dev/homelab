@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-20 — Off-node backups for Plausible (PostgreSQL + ClickHouse)
+
+Added daily, off-node, restore-verified backups for Plausible CE — PostgreSQL via pg_dump and ClickHouse via native BACKUP/RESTORE, synced to a Synology NAS — then used that safety net to upgrade Plausible to v3.2.1.
+
+More details: https://eugeneivanov.dev/journal/linux/backup-plausible-postgresql-clickhouse-synology-nas/
+
+---
+
 ## 2026-06-20 — Cat6 camera run stuck at 100 Mbps: the crimper, not the cable
 
 A garage camera linked at 100 Mbps with pins 7/8 open across three re-crimps per end and a full cable swap, but the cable tested perfect on bare copper — the culprit was a copper offcut jammed in the pass-through crimper die, blocking the 7/8 contacts.
