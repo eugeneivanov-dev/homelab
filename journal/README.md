@@ -2,6 +2,16 @@
 
 Short notes about infrastructure work, lab experiments, and physical network setup.
 
+---
+
+## 2026-06-20 — Cat6 camera run stuck at 100 Mbps: the crimper, not the cable
+
+A garage camera linked at 100 Mbps with pins 7/8 open across three re-crimps per end and a full cable swap, but the cable tested perfect on bare copper — the culprit was a copper offcut jammed in the pass-through crimper die, blocking the 7/8 contacts.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/cat6-stuck-100mbps-crimper-debris/
+
+---
+
 ## 2026-06-15 — Off-Node Proxmox Backups to Synology, Verified by Restore
 
 Backed up every guest in my two-node Proxmox cluster to a Synology over NFS and proved it by restoring a VM on the other node, before wiping anything.
