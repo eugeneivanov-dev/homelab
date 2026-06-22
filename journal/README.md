@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-22 — Two-Node Proxmox HA Cluster — project published
+
+Rebuilt the lab's single Proxmox node into a two-node HA cluster on ZFS replication, with external QDevice quorum and a verified failover — now documented as a completed project with a full implementation series.
+
+More details: https://eugeneivanov.dev/projects/two-node-proxmox-ha-cluster/
+
+---
+
 ## 2026-06-22 — Rebuilding the lab's compute layer into a two-node Proxmox HA cluster
 
 A capstone overview of turning a single Proxmox node into a two-node, ZFS-replicated HA cluster — the decisions behind it, the trade-offs, the verified failover, and where it sits in the wider lab.
