@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-21 — In-Place Reinstall of a Live Proxmox Cluster Node Without Losing Quorum
+
+Reinstalled a live Proxmox cluster member in place on a ZFS mirror — evict, rebuild, rejoin, and restore the QDevice client a fresh install drops — without losing quorum.
+
+More details: https://eugeneivanov.dev/journal/labnotes/in-place-reinstall-proxmox-cluster-node/
+
+---
+
 ## 2026-06-21 — Live-migrating Proxmox VMs from LVM-thin to ZFS (and the thin-provisioning trap)
 
 Emptied one node of my two-node Proxmox cluster by live-migrating all ten VMs from LVM-thin onto ZFS — and flipped the one storage flag that keeps the migrated disks thin instead of ballooning to full provisioned size.
