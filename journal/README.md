@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-22 — Ceph Storage Cluster Lab on Proxmox — project planned
+
+Scoped a planned project to stand up a correct, fully isolated Ceph cluster in lab VMs — to understand Ceph hands-on (monitors, OSDs, placement groups, replication, recovery) without touching the production HA cluster; the ZFS-vs-Ceph findings will follow as a separate writeup.
+
+More details: https://eugeneivanov.dev/projects/ceph-storage-cluster-lab-on-proxmox/
+
+---
+
 ## 2026-06-22 — Two-Node Proxmox HA Cluster — project published
 
 Rebuilt the lab's single Proxmox node into a two-node HA cluster on ZFS replication, with external QDevice quorum and a verified failover — now documented as a completed project with a full implementation series.
