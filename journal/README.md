@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-21 — Live-migrating Proxmox VMs from LVM-thin to ZFS (and the thin-provisioning trap)
+
+Emptied one node of my two-node Proxmox cluster by live-migrating all ten VMs from LVM-thin onto ZFS — and flipped the one storage flag that keeps the migrated disks thin instead of ballooning to full provisioned size.
+
+More details: https://eugeneivanov.dev/journal/labnotes/proxmox-live-migrate-lvm-thin-to-zfs/
+
+---
+
 ## 2026-06-20 — Off-node backups for Plausible (PostgreSQL + ClickHouse)
 
 Added daily, off-node, restore-verified backups for Plausible CE — PostgreSQL via pg_dump and ClickHouse via native BACKUP/RESTORE, synced to a Synology NAS — then used that safety net to upgrade Plausible to v3.2.1.
