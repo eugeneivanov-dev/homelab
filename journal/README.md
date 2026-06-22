@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-22 — The Proxmox Alert That Never Reached Me
+
+A "spoofed" backup email led me to a node that had silently dropped a ZFS alert for fifteen hours — and to routing cluster notifications and system mail through an authenticated relay so the alerts that matter actually arrive.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/proxmox-notifications-authenticated-email/
+
+---
+
 ## 2026-06-21 — In-Place Reinstall of a Live Proxmox Cluster Node Without Losing Quorum
 
 Reinstalled a live Proxmox cluster member in place on a ZFS mirror — evict, rebuild, rejoin, and restore the QDevice client a fresh install drops — without losing quorum.
