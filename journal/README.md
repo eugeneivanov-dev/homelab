@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-21 — Two-Node Proxmox HA with ZFS Replication and a Verified Failover
+
+Made the two-node cluster genuinely highly available — rebalanced the guests across both nodes, set up bidirectional ZFS replication, enabled HA, and proved automatic failover with a real power-off test.
+
+More details: https://eugeneivanov.dev/journal/labnotes/proxmox-2-node-ha-zfs-replication-failover/
+
+---
+
 ## 2026-06-22 — The Proxmox Alert That Never Reached Me
 
 A "spoofed" backup email led me to a node that had silently dropped a ZFS alert for fifteen hours — and to routing cluster notifications and system mail through an authenticated relay so the alerts that matter actually arrive.
