@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-24 — IPv6-Only Network Segment on the Home Lab — project planned
+
+Scoped a planned project to run an isolated segment with IPv4 turned off entirely — NAT64/DNS64 translation for reaching IPv4-only resources, per-service IPv6-readiness auditing, and diagnosing what breaks once the IPv4 fallback is gone; the advanced follow-on to the dual-stack build.
+
+More details: https://eugeneivanov.dev/projects/ipv6-only-segment-home-lab/
+
+---
+
 ## 2026-06-24 — Dual-Stack IPv4/IPv6 Home Lab Network — project planned
 
 Scoped a planned project to layer IPv6 alongside the existing IPv4 network as a dual-stack deployment — internal addressing, IPv6 firewalling on the RHEL hosts, AAAA records in the internal DNS, and verified dual-stack connectivity; an IPv6-only segment follows as a separate project.
