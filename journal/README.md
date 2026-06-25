@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-24 — Dual-Stack IPv4/IPv6 Home Lab Network — project planned
+
+Scoped a planned project to layer IPv6 alongside the existing IPv4 network as a dual-stack deployment — internal addressing, IPv6 firewalling on the RHEL hosts, AAAA records in the internal DNS, and verified dual-stack connectivity; an IPv6-only segment follows as a separate project.
+
+More details: https://eugeneivanov.dev/projects/dual-stack-ipv4-ipv6-home-lab/
+
+---
+
 ## 2026-06-24 — Reusable RHEL 10 Baseline
 
 Installed RHEL 10.2 Minimal on a Proxmox VM and brought it to a clean, reusable baseline — static networking, subscription, updates, key-only SSH, SELinux enforcing, and a deny-by-default firewall — so every future service starts from the same known-good foundation.
