@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-24 — Reusable RHEL 10 Baseline
+
+Installed RHEL 10.2 Minimal on a Proxmox VM and brought it to a clean, reusable baseline — static networking, subscription, updates, key-only SSH, SELinux enforcing, and a deny-by-default firewall — so every future service starts from the same known-good foundation.
+
+More details: https://eugeneivanov.dev/journal/linux/reusable-rhel-10-baseline/
+
+---
+
 ## 2026-06-22 — Ceph Storage Cluster Lab on Proxmox — project planned
 
 Scoped a planned project to stand up a correct, fully isolated Ceph cluster in lab VMs — to understand Ceph hands-on (monitors, OSDs, placement groups, replication, recovery) without touching the production HA cluster; the ZFS-vs-Ceph findings will follow as a separate writeup.
