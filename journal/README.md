@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-25 — A Deny-by-Default WireGuard Server on RHEL 10
+
+Built a road-warrior WireGuard server where access control lives on the server in firewalld policies — a dedicated zone with forwarding off by default, deny-by-default policies, and per-peer authorization by source address.
+
+More details: https://eugeneivanov.dev/journal/networking/deny-by-default-wireguard-firewalld-policies/
+
+---
+
 ## 2026-06-24 — IPv6-Only Network Segment on the Home Lab — project planned
 
 Scoped a planned project to run an isolated segment with IPv4 turned off entirely — NAT64/DNS64 translation for reaching IPv4-only resources, per-service IPv6-readiness auditing, and diagnosing what breaks once the IPv4 fallback is gone; the advanced follow-on to the dual-stack build.
