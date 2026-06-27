@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-27 — A Reinstalled Node Brought Back an Old NIC Hang, and HA Caught It
+
+A node's e1000e NIC hung and the node self-fenced; HA failed its VMs over to the surviving node automatically. The cause was an old offloading fix that a full reinstall had dropped from the network config — re-applied and made persistent, with the layout restored and a previously unprotected VM brought under HA.
+
+More details: https://eugeneivanov.dev/journal/troubleshooting/proxmox-ha-failover-nic-hang-after-reinstall/
+
+---
+
 ## 2026-06-25 — A Deny-by-Default WireGuard Server on RHEL 10
 
 Built a road-warrior WireGuard server where access control lives on the server in firewalld policies — a dedicated zone with forwarding off by default, deny-by-default policies, and per-peer authorization by source address.
