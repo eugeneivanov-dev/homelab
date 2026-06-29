@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-06-29 — Cisco Modeling Labs (CML) Network Lab
+
+Scoped out a CML project — running real Cisco IOS as an on-demand VM on Proxmox to build live Layer 3 by hand, train across the certification ladder, and practice design validation the way an architect does.
+
+More details: https://eugeneivanov.dev/projects/cisco-modeling-labs-network-lab/
+
+---
+
 ## 2026-06-27 — A Reinstalled Node Brought Back an Old NIC Hang, and HA Caught It
 
 A node's e1000e NIC hung and the node self-fenced; HA failed its VMs over to the surviving node automatically. The cause was an old offloading fix that a full reinstall had dropped from the network config — re-applied and made persistent, with the layout restored and a previously unprotected VM brought under HA.
