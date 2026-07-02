@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-02 — Installing Cisco Modeling Labs on Proxmox from the OVA
+
+Deployed CML 2.10 as an on-demand VM on the Proxmox cluster from the Personal-license OVA: extracted the VMDK, built a UEFI VM with nested virtualization, imported the disk, ran the setup wizard, registered the 20-node license, and expanded lab storage the supported way through Cockpit.
+
+More details: https://eugeneivanov.dev/journal/labnotes/installing-cml-on-proxmox-from-ova/
+
+---
+
 ## 2026-06-29 — Cisco Modeling Labs (CML) Network Lab
 
 Scoped out a CML project — running real Cisco IOS as an on-demand VM on Proxmox to build live Layer 3 by hand, train across the certification ladder, and practice design validation the way an architect does.
