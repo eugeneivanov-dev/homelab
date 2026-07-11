@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-11 — Planned a mini-HPC cluster lab: Slurm, LDAP, and NFS on Proxmox
+
+Scoped a new lab project: a three-node Slurm cluster on RHEL 10 VMs — one controller, two compute nodes — with LDAP-based central authentication and NFS-backed home directories automounted through autofs, running isolated on the production Proxmox cluster. The goal is the operational model of batch computing: submitting, scheduling, breaking, and triaging jobs the way real compute clusters run them.
+
+More details: https://eugeneivanov.dev/projects/mini-hpc-cluster-lab-slurm-ldap-nfs/
+
+---
+
 ## 2026-07-11 — Nested vSphere Cluster Lab on Proxmox
 
 Planned a new project: a second hypervisor stack in the lab — a nested vSphere cluster (two ESXi host VMs on separate Proxmox nodes, vCenter, shared NFS datastore from the NAS) with vMotion, HA, and DRS proven by live tests, run in 60-day evaluation-mode cycles where teardown and redeployment are part of the practice.
