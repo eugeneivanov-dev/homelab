@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-11 — Nested vSphere Cluster Lab on Proxmox
+
+Planned a new project: a second hypervisor stack in the lab — a nested vSphere cluster (two ESXi host VMs on separate Proxmox nodes, vCenter, shared NFS datastore from the NAS) with vMotion, HA, and DRS proven by live tests, run in 60-day evaluation-mode cycles where teardown and redeployment are part of the practice.
+
+More details: https://eugeneivanov.dev/projects/nested-vsphere-cluster-lab-on-proxmox/
+
+---
+
 ## 2026-07-02 — Installing Cisco Modeling Labs on Proxmox from the OVA
 
 Deployed CML 2.10 as an on-demand VM on the Proxmox cluster from the Personal-license OVA: extracted the VMDK, built a UEFI VM with nested virtualization, imported the disk, ran the setup wizard, registered the 20-node license, and expanded lab storage the supported way through Cockpit.
