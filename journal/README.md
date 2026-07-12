@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-12 — Internal DNS for the Lab (BIND Primary/Secondary)
+
+Planned and published the internal DNS project: two BIND servers on RHEL, a primary and a secondary on separate Proxmox nodes, serving forward and reverse zones for the lab domain with redundancy handled by the DNS protocol instead of hypervisor HA.
+
+More details: https://eugeneivanov.dev/projects/internal-dns-for-the-lab/
+
+---
+
 ## 2026-07-11 — Planned a mini-HPC cluster lab: Slurm, LDAP, and NFS on Proxmox
 
 Scoped a new lab project: a three-node Slurm cluster on RHEL 10 VMs — one controller, two compute nodes — with LDAP-based central authentication and NFS-backed home directories automounted through autofs, running isolated on the production Proxmox cluster.
