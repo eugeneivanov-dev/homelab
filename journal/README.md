@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-12 — Internal CA for the Lab (step-ca)
+
+Planned and published the internal CA project: a private PKI on step-ca with an offline root and online intermediate, issuing certificates over ACME to the infrastructure interfaces a public CA cannot cover — Proxmox and NAS management UIs first — while the lab's web services stay on publicly trusted certificates.
+
+More details: https://eugeneivanov.dev/journal/projects/internal-ca-for-the-lab/
+
+---
+
 ## 2026-07-12 — ITSM for the Lab (GLPI)
 
 Planned a new foundation project: GLPI on RHEL as the lab's permanent ITSM layer — real monitoring alerts becoming incidents, maintenance running as planned changes with rollback plans, recurring failures tracked as problems, and every VM and node inventoried by agent.
