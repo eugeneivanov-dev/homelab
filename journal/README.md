@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-12 — ITSM for the Lab (GLPI)
+
+Planned a new foundation project: GLPI on RHEL as the lab's permanent ITSM layer — real monitoring alerts becoming incidents, maintenance running as planned changes with rollback plans, recurring failures tracked as problems, and every VM and node inventoried by agent.
+
+More details: https://eugeneivanov.dev/projects/itsm-for-the-lab/
+
+---
+
 ## 2026-07-12 — Internal DNS for the Lab (BIND Primary/Secondary)
 
 Planned and published the internal DNS project: two BIND servers on RHEL, a primary and a secondary on separate Proxmox nodes, serving forward and reverse zones for the lab domain with redundancy handled by the DNS protocol instead of hypervisor HA.
