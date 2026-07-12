@@ -8,7 +8,7 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 Planned and published the internal CA project: a private PKI on step-ca with an offline root and online intermediate, issuing certificates over ACME to the infrastructure interfaces a public CA cannot cover — Proxmox and NAS management UIs first — while the lab's web services stay on publicly trusted certificates.
 
-More details: https://eugeneivanov.dev/journal/projects/internal-ca-for-the-lab/
+More details: https://eugeneivanov.dev/projects/internal-ca-for-the-lab/
 
 ---
 
