@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-19 — Internal DNS for the Lab: BIND Primary/Secondary on RHEL
+
+Deployed the lab's name resolution layer: two BIND servers on RHEL across both Proxmox nodes — authoritative forward and reverse zones, scoped recursion, replication by zone transfer, and the whole network migrated in three waves. Closed with a live failover test: primary down, nobody noticed.
+
+More details: https://eugeneivanov.dev/journal/labnotes/internal-dns-bind-primary-secondary-rhel/
+
+---
+
 ## 2026-07-19 — Ansible Baseline for the Lab
 
 Planned and published the Ansible baseline project: the lab's hand-built RHEL standard — networking, SSH hardening, SELinux, firewalld posture, monitoring agent — codified as idempotent, version-controlled playbooks, so every future VM reaches the lab standard by running a play instead of following a document.
