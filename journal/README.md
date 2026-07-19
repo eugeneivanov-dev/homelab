@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-19 — Ansible Baseline for the Lab
+
+Planned and published the Ansible baseline project: the lab's hand-built RHEL standard — networking, SSH hardening, SELinux, firewalld posture, monitoring agent — codified as idempotent, version-controlled playbooks, so every future VM reaches the lab standard by running a play instead of following a document.
+
+More details: https://eugeneivanov.dev/projects/ansible-baseline-for-the-lab/
+
+---
+
 ## 2026-07-12 — Internal CA for the Lab (step-ca)
 
 Planned and published the internal CA project: a private PKI on step-ca with an offline root and online intermediate, issuing certificates over ACME to the infrastructure interfaces a public CA cannot cover — Proxmox and NAS management UIs first — while the lab's web services stay on publicly trusted certificates.
