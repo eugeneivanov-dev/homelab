@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-19 — Identity for the Lab (FreeIPA)
+
+Planned and published the identity project: a FreeIPA replica pair on RHEL, one server per Proxmox node in multi-master replication — centralized users, Kerberos, directory-served SSH keys, and sudo/HBAC policy for every enrolled guest, with redundancy by replication rather than hypervisor HA, the same design call the DNS pair made. Deliberately a consumer of the existing DNS and PKI layers: no DNS role, no CA role.
+
+More details: https://eugeneivanov.dev/projects/identity-for-the-lab/
+
+---
+
 ## 2026-07-19 — Internal DNS for the Lab: BIND Primary/Secondary on RHEL
 
 Deployed the lab's name resolution layer: two BIND servers on RHEL across both Proxmox nodes — authoritative forward and reverse zones, scoped recursion, replication by zone transfer, and the whole network migrated in three waves. Closed with a live failover test: primary down, nobody noticed.
