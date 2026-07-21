@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-21 — Secrets for the Lab (HashiCorp Vault)
+
+Planned and published the secrets project: one Vault server on RHEL with a single KV v2 store, taking over the credentials the previous three projects parked as temporary — Ansible's subscription credentials, FreeIPA's admin material, Keycloak's client secrets. Manual unseal by design (Shamir 5/3), hypervisor HA with restore-verified raft snapshots, OIDC login through Keycloak with a hardware key, audit log from day one. The PKI engine stays off — four singular authorities: names, certificates, identity, secrets.
+
+More details: https://eugeneivanov.dev/projects/hashicorp-vault-for-the-lab/
+
+---
+
 ## 2026-07-21 — SSO for the Lab (Keycloak)
 
 Planned and published the web SSO project: one Keycloak server on RHEL, federating users from the FreeIPA directory over LDAPS and issuing OIDC logins with TOTP as the second factor — Grafana as the first consumer, every future web service joining the same door. Deliberately a reader of the directory, not a second user store — and the first service in the redundancy series where hypervisor HA is the right answer, not the protocol.
