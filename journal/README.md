@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-21 — SSO for the Lab (Keycloak)
+
+Planned and published the web SSO project: one Keycloak server on RHEL, federating users from the FreeIPA directory over LDAPS and issuing OIDC logins with TOTP as the second factor — Grafana as the first consumer, every future web service joining the same door. Deliberately a reader of the directory, not a second user store — and the first service in the redundancy series where hypervisor HA is the right answer, not the protocol.
+
+More details: https://eugeneivanov.dev/projects/keycloak-sso-for-the-lab/
+
+---
+
 ## 2026-07-19 — Identity for the Lab (FreeIPA)
 
 Planned and published the identity project: a FreeIPA replica pair on RHEL, one server per Proxmox node in multi-master replication — centralized users, Kerberos, directory-served SSH keys, and sudo/HBAC policy for every enrolled guest, with redundancy by replication rather than hypervisor HA, the same design call the DNS pair made. Deliberately a consumer of the existing DNS and PKI layers: no DNS role, no CA role.
