@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-23 — New project: Ubuntu Baseline for the Lab
+
+Planned the extension of the Ansible Baseline discipline to the seven Ubuntu VMs — parallel roles on native mechanisms (apt, UFW, AppArmor, netplan), same repository and workflow, adoption as a fleet-wide diff of hosts built from evolving manual notes.
+
+More details: https://eugeneivanov.dev/projects/ubuntu-baseline-for-the-lab/
+
+---
+
 ## 2026-07-23 — Ansible Baseline for the Lab: complete
 
 Codified the lab's RHEL baseline as idempotent Ansible roles and adopted it across the fleet — five phases from control VM to fleet-wide check mode reading changed=0; the standard now lives in Git and drift is readable in one command.
