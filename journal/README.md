@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-25 — Commissioning a YubiKey from the CLI
+
+Brought a pair of YubiKeys into service as a personal authenticator: verified with ykman, FIDO2 PIN set, both keys registered per service in one session, recovery paths written down before anything was tightened.
+
+More details: https://eugeneivanov.dev/journal/security/commissioning-a-yubikey-from-the-cli/
+
+---
+
 ## 2026-07-23 — New project: Ubuntu Baseline for the Lab
 
 Planned the extension of the Ansible Baseline discipline to the seven Ubuntu VMs — parallel roles on native mechanisms (apt, UFW, AppArmor, netplan), same repository and workflow, adoption as a fleet-wide diff of hosts built from evolving manual notes.
