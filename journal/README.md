@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-28 — Ansible Baseline — Part 2: First Roles and the changed=0 Rule
+
+Second article of the Ansible Baseline series: a throwaway test VM, the site.yml skeleton, chrony and ssh_hardening roles, idempotency as the acceptance criterion — and a burned handler that taught me not to infer service state from file state.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ansible-baseline-first-roles-idempotency/
+
+---
+
 ## 2026-07-28 — Ansible Baseline — Part 1: The Control Side
 
 First article of the Ansible Baseline series: a dedicated control VM, Ansible via pipx on RHEL 10 (no EPEL), a repository with a one-way Git boundary, and an inventory answering ping on all eleven hosts.
