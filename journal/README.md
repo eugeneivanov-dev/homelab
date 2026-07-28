@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-28 — Ansible Baseline — Part 1: The Control Side
+
+First article of the Ansible Baseline series: a dedicated control VM, Ansible via pipx on RHEL 10 (no EPEL), a repository with a one-way Git boundary, and an inventory answering ping on all eleven hosts.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ansible-baseline-control-side/
+
+---
+
 ## 2026-07-25 — Commissioning a YubiKey from the CLI
 
 Brought a pair of YubiKeys into service as a personal authenticator: verified with ykman, FIDO2 PIN set, both keys registered per service in one session, recovery paths written down before anything was tightened.
