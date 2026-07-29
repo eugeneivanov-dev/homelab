@@ -4,6 +4,22 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-29 — Ansible Baseline — Part 4: Seven Roles to a Full Baseline
+
+The first secret lands in Vault, seven roles codify the remaining layers — registration through a version-pinned node_exporter — and the full nine-role playbook holds changed=0 across two consecutive runs.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ansible-baseline-seven-roles-full-baseline/
+
+---
+
+## 2026-07-29 — Ansible Baseline — Part 3: A Lint Gate and an Automation User
+
+Two linters gate every push, force_handlers closes a lesson from Part 2, and a dedicated automation user with locked password and NOPASSWD sudo retires the -K prompt across the fleet.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ansible-baseline-lint-gate-automation-user/
+
+---
+
 ## 2026-07-28 — Ansible Baseline — Part 2: First Roles and the changed=0 Rule
 
 Second article of the Ansible Baseline series: a throwaway test VM, the site.yml skeleton, chrony and ssh_hardening roles, idempotency as the acceptance criterion — and a burned handler that taught me not to infer service state from file state.
