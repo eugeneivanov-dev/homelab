@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-30 — Ansible Baseline, Part 5 — The Clean-VM Proof
+
+Published Part 5 of the Ansible Baseline series: a fresh RHEL 10 VM taken from installer defaults to the full lab standard by one uninterrupted site.yml run (2:11, including a mid-run kernel reboot), a second run reporting changed=0, and an eleven-point diff against the hand-built reference machine — which caught one real difference, a file mode invisible to the eye.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ansible-baseline-clean-vm-proof/
+
+---
+
 ## 2026-07-29 — Ansible Baseline — Part 4: Seven Roles to a Full Baseline
 
 The first secret lands in Vault, seven roles codify the remaining layers — registration through a version-pinned node_exporter — and the full nine-role playbook holds changed=0 across two consecutive runs.
