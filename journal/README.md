@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-30 — Ansible Baseline — Part 6: Adopting the Live Fleet
+
+Final article of the series: the playbook meets the four hand-built hosts — a drift report that had to earn the right to run, a one-host-at-a-time rollout with reboots, and the fleet at changed=0.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ansible-baseline-adopting-live-fleet/
+
+---
+
 ## 2026-07-30 — Ansible Baseline, Part 5 — The Clean-VM Proof
 
 Published Part 5 of the Ansible Baseline series: a fresh RHEL 10 VM taken from installer defaults to the full lab standard by one uninterrupted site.yml run (2:11, including a mid-run kernel reboot), a second run reporting changed=0, and an eleven-point diff against the hand-built reference machine — which caught one real difference, a file mode invisible to the eye.
