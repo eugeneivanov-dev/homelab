@@ -4,6 +4,22 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-07-31 — Going Public: the Ansible Repo Transition, Step by Step
+
+The hands-on half of opening the repo: sanitizing secrets and usernames, moving the vault out of git, building a single-commit public history — and the origin trap that could have pushed private history into the public repo.
+
+More details: https://eugeneivanov.dev/journal/labnotes/going-public-ansible-repo-transition/
+
+---
+
+## 2026-07-31 — Going Public: the Decisions Behind Opening My Ansible Repo
+
+Why the public Ansible repo became the working repo instead of a sanitized snapshot: real inventory, secrets outside git, clean history, and the reasoning behind each call.
+
+More details: https://eugeneivanov.dev/journal/labnotes/going-public-ansible-repo-decisions/
+
+---
+
 ## 2026-07-30 — Ansible Baseline — Part 6: Adopting the Live Fleet
 
 Final article of the series: the playbook meets the four hand-built hosts — a drift report that had to earn the right to run, a one-host-at-a-time rollout with reboots, and the fleet at changed=0.
