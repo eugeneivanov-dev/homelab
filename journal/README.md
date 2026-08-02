@@ -4,6 +4,30 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-08-02 — App Services on Let's Encrypt: Public Certificates for Internal Names
+
+Issued public Let's Encrypt certificates for internal-only lab names via Cloudflare DNS-01 with acme.sh, terminating TLS on an nginx edge in the monitoring Docker stack — Grafana and Prometheus now serve trusted HTTPS with no private root installed anywhere.
+
+More details: https://eugeneivanov.dev/journal/security/app-services-lets-encrypt-dns01/
+
+---
+
+## 2026-08-02 — Attaching Consumers to the Internal CA: Proxmox, Synology, and Device Trust
+
+Both Proxmox nodes and the Synology DSM moved to certificates from the internal chain, the root landed on the administrative devices, certificate lifetimes got matched to the renewal machinery, and revocation turned out to mean renewal denial, not recall.
+
+More details: https://eugeneivanov.dev/journal/security/internal-ca-consumers-proxmox-synology/
+
+---
+
+## 2026-08-02 — Building a Private Certificate Authority with step-ca on RHEL
+
+Stood up the lab's internal CA: a RHEL VM provisioned by playbook, a step-ca PKI with an offline root and an online intermediate, the daemon under systemd, and an ACME endpoint verified end to end with a test certificate issued across the network.
+
+More details: https://eugeneivanov.dev/journal/security/private-ca-with-step-ca-on-rhel/
+
+---
+
 ## 2026-07-31 — Going Public: the Ansible Repo Transition, Step by Step
 
 The hands-on half of opening the repo: sanitizing secrets and usernames, moving the vault out of git, building a single-commit public history — and the origin trap that could have pushed private history into the public repo.
