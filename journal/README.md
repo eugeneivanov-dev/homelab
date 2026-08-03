@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-08-03 — Auditing the Ubuntu Fleet Before Ansible Touches It
+
+A read-only audit of all seven live Ubuntu VMs before writing their baseline roles: the core standard held, but cloud-init had silently re-opened password SSH on every host, unattended-upgrades was patching the fleet daily, and the monitoring host ran with its firewall off.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ubuntu-fleet-audit-before-ansible/
+
+---
+
 ## 2026-08-02 — App Services on Let's Encrypt: Public Certificates for Internal Names
 
 Issued public Let's Encrypt certificates for internal-only lab names via Cloudflare DNS-01 with acme.sh, terminating TLS on an nginx edge in the monitoring Docker stack — Grafana and Prometheus now serve trusted HTTPS with no private root installed anywhere.
